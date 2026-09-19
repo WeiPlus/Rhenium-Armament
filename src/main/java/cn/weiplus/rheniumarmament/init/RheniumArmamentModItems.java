@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import cn.weiplus.rheniumarmament.item.RheniumSwordItem;
 import cn.weiplus.rheniumarmament.item.RheniumIngotItem;
 import cn.weiplus.rheniumarmament.RheniumArmamentMod;
 
@@ -20,6 +21,7 @@ public class RheniumArmamentModItems {
 	public static final RegistryObject<Item> RHENIUM_INGOT = REGISTRY.register("rhenium_ingot", () -> new RheniumIngotItem());
 	public static final RegistryObject<Item> RHENIUM_ORE = block(RheniumArmamentModBlocks.RHENIUM_ORE);
 	public static final RegistryObject<Item> QRO = block(RheniumArmamentModBlocks.QRO);
+	public static final RegistryObject<Item> RHENIUM_SWORD = REGISTRY.register("rhenium_sword", () -> new RheniumSwordItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

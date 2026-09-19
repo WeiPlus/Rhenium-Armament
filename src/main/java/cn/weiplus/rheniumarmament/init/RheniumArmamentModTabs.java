@@ -26,6 +26,7 @@ public class RheniumArmamentModTabs {
 				tabData.accept(RheniumArmamentModItems.RHENIUM_INGOT.get());
 				tabData.accept(RheniumArmamentModBlocks.RHENIUM_ORE.get().asItem());
 				tabData.accept(RheniumArmamentModBlocks.QRO.get().asItem());
+				tabData.accept(RheniumArmamentModItems.RHENIUM_SWORD.get());
 			}).build());
 
 	@SubscribeEvent
@@ -35,6 +36,8 @@ public class RheniumArmamentModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(RheniumArmamentModBlocks.RHENIUM_ORE.get().asItem());
 			tabData.accept(RheniumArmamentModBlocks.QRO.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(RheniumArmamentModItems.RHENIUM_SWORD.get());
 		}
 	}
 }
