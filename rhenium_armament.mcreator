@@ -1,0 +1,31 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rhenium_armament",
+    "modName": "Rhenium Armament",
+    "version": "1.0.0",
+    "description": "A Rhenium Armament Mod",
+    "author": "WeiPlus",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "WeiPlus",
+    "modElementsPackage": "cn.weiplus.rheniumarmament"
+  },
+  "mcreatorVersion": 202400452410
+}
