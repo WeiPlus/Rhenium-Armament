@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "rhenium_armament:blocks/qro",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rhenium_armament:qro"
+        }
+      ]
+    }
+  ]
+}

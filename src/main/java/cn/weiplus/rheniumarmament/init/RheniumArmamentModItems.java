@@ -19,6 +19,7 @@ public class RheniumArmamentModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, RheniumArmamentMod.MODID);
 	public static final RegistryObject<Item> RHENIUM_INGOT = REGISTRY.register("rhenium_ingot", () -> new RheniumIngotItem());
 	public static final RegistryObject<Item> RHENIUM_ORE = block(RheniumArmamentModBlocks.RHENIUM_ORE);
+	public static final RegistryObject<Item> QRO = block(RheniumArmamentModBlocks.QRO);
 
 	// Start of user code block custom items
 	// End of user code block custom items

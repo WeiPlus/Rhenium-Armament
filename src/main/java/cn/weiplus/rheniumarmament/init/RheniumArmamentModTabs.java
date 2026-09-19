@@ -10,7 +10,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,9 +22,10 @@ import cn.weiplus.rheniumarmament.RheniumArmamentMod;
 public class RheniumArmamentModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RheniumArmamentMod.MODID);
 	public static final RegistryObject<CreativeModeTab> RA = REGISTRY.register("ra",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rhenium_armament.ra")).icon(() -> new ItemStack(Items.CHAINMAIL_CHESTPLATE)).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rhenium_armament.ra")).icon(() -> new ItemStack(RheniumArmamentModItems.RHENIUM_INGOT.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(RheniumArmamentModItems.RHENIUM_INGOT.get());
 				tabData.accept(RheniumArmamentModBlocks.RHENIUM_ORE.get().asItem());
+				tabData.accept(RheniumArmamentModBlocks.QRO.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -34,6 +34,7 @@ public class RheniumArmamentModTabs {
 			tabData.accept(RheniumArmamentModItems.RHENIUM_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(RheniumArmamentModBlocks.RHENIUM_ORE.get().asItem());
+			tabData.accept(RheniumArmamentModBlocks.QRO.get().asItem());
 		}
 	}
 }

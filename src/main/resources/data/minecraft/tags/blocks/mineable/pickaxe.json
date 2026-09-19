@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "rhenium_armament:qro",
     "rhenium_armament:rhenium_ore"
   ]
 }
