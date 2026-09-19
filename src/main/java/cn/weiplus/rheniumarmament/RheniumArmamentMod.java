@@ -28,6 +28,7 @@ import java.util.AbstractMap;
 
 import cn.weiplus.rheniumarmament.init.RheniumArmamentModTabs;
 import cn.weiplus.rheniumarmament.init.RheniumArmamentModItems;
+import cn.weiplus.rheniumarmament.init.RheniumArmamentModBlocks;
 
 @Mod("rhenium_armament")
 public class RheniumArmamentMod {
@@ -39,6 +40,8 @@ public class RheniumArmamentMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		RheniumArmamentModBlocks.REGISTRY.register(bus);
 
 		RheniumArmamentModItems.REGISTRY.register(bus);
 
