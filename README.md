@@ -16,7 +16,7 @@ A Minecraft 1.20.1 Forge mod that adds a complete set of Rhenium equipment, incl
 ## Installation
 
 1. Install **Minecraft Forge 1.20.1**
-2. Download the latest `.jar` file from [Releases](https://github.com/YOUR_USERNAME/rhenium-armament/releases)
+2. Download the latest `.jar` file from [Releases](https://github.com/WeiPlus/rhenium-armament/releases)
 3. Place the `.jar` file into your `.minecraft/mods/` folder
 4. Launch Minecraft and enjoy!
 
@@ -42,8 +42,8 @@ This mod is built with **MCreator 2024.4**. To build from source:
 
 ## Download
 
-- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/YOUR_MOD_ID)
-- [Modrinth](https://modrinth.com/mod/YOUR_MOD_ID)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/)
+- [Modrinth](https://modrinth.com/mod/)
 
 ## Credits
 
